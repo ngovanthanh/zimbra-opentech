@@ -1,0 +1,50 @@
+.ImgNewSelectPullDownArrow {
+#IFDEF MSIE_LOWER_THAN_7
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='@AppContextPath@/skins/harmony/img/harmony/ImgNewSelectPullDownArrow.png?v=@jsVersion@',sizingMethod='crop');
+background-repeat:no-repeat;
+position:relative;
+top:0px;left:0px;
+#ELSE
+background:url('@AppContextPath@/skins/harmony/img/harmony/ImgNewSelectPullDownArrow.png?v=@jsVersion@') 0px 0px no-repeat;
+#ENDIF
+width:12px !important;height:16px !important;overflow:hidden;}
+.ImgDisconnect {
+#IFDEF MSIE_LOWER_THAN_7
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='@AppContextPath@/skins/harmony/img/zimbra.png?v=@jsVersion@',sizingMethod='crop');
+background-repeat:no-repeat;
+position:relative;
+top:0px;left:0px;
+#ELSE
+background:url('@AppContextPath@/skins/harmony/img/zimbra.png?v=@jsVersion@') 0px 0px no-repeat;
+#ENDIF
+width:16px !important;height:16px !important;overflow:hidden;}
+.ImgMsgRead {
+#IFDEF MSIE_LOWER_THAN_7
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='@AppContextPath@/skins/harmony/img/zimbra.png?v=@jsVersion@',sizingMethod='crop');
+background-repeat:no-repeat;
+position:relative;
+top:-17px;left:0px;
+#ELSE
+background:url('@AppContextPath@/skins/harmony/img/zimbra.png?v=@jsVersion@') 0px -17px no-repeat;
+#ENDIF
+width:16px !important;height:16px !important;overflow:hidden;}
+.ImgMsgUnread {
+#IFDEF MSIE_LOWER_THAN_7
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='@AppContextPath@/skins/harmony/img/zimbra.png?v=@jsVersion@',sizingMethod='crop');
+background-repeat:no-repeat;
+position:relative;
+top:-34px;left:0px;
+#ELSE
+background:url('@AppContextPath@/skins/harmony/img/zimbra.png?v=@jsVersion@') 0px -34px no-repeat;
+#ENDIF
+width:16px !important;height:16px !important;overflow:hidden;}
+.ImgRefreshAll {
+#IFDEF MSIE_LOWER_THAN_7
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='@AppContextPath@/skins/harmony/img/zimbra.png?v=@jsVersion@',sizingMethod='crop');
+background-repeat:no-repeat;
+position:relative;
+top:-51px;left:0px;
+#ELSE
+background:url('@AppContextPath@/skins/harmony/img/zimbra.png?v=@jsVersion@') 0px -51px no-repeat;
+#ENDIF
+width:16px !important;height:16px !important;overflow:hidden;}

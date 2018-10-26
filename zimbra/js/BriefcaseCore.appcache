@@ -1,0 +1,2 @@
+<%=contextPath%>/js/zimbraMail/briefcase/model/ZmBriefcase.js?v=<%=vers%>
+<%=contextPath%>/js/zimbraMail/briefcase/model/ZmBriefcaseItem.js?v=<%=vers%>
